@@ -1,0 +1,72 @@
+/**
+ * --------------------------------
+ * 선택자 {
+ * 	속성1: 값;
+ * 	속성2: 값;
+ * 	속성3: 값;
+ * }
+ *
+ * Grid System
+ * 페이지 전체 폭: Page Width
+ * 컬럼 총 개수: Columns Count
+ * 거터 폭: Gutter Width
+ * 컬럼 폭: Column Width
+ * 마진: Margin
+ *
+ * 그리드 시스템을 그리기 위한 공식
+ * 컬럼 폭 = ( 전체 페이지 폭 - (거터 폭 x 거터 개수) ) / 컬럼 개수
+ * X = ( (960 - (10px * 2) )px - (10px * (12 - 1)) ) / 12
+ * X = 14
+ * Y = ((960 - ( X *2)) - ( X *2*(12-1)))/12
+ * Y = ((960 - ( 14 *2)) - ( 14 *2*(12-1)))/12
+ * --------------------------------
+ */
+
+/* 구글에서 서비스하는 웹폰트(한글, 나눔고딕) */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {
+
+}
+
+/* 본문 글꼴/색상/크기 */
+body, p {
+	margin:      0;                                 /* 공간 초기화 */
+	font-family: 'Nanum Gothic', Dotum, sans-serif; /* 서체의 형태 */
+	font-size:   14px;                              /* 서체의 크기 */
+	color:       #191919;                           /* 서체의 색상 */
+	line-height: 1.5;                               /* 행간 */
+}
+
+p {
+	/*border: 1px solid;
+	padding: 14px;*/
+	margin-bottom: 21px; /* 행간 */
+}
+
+/*div {
+	width: 700px;
+	margin-left: 50px;
+	margin-top: 63px;
+}*/
+
+#page {
+	position: relative;
+	width: 960px;
+	height: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page::before {
+	content: '';
+}
+
+#page.grid::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200vh;
+	background: url(../images/guide/grid-system.png);
+}
