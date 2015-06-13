@@ -1,0 +1,50 @@
+html {
+	height: 100%;
+	background: #fff url(../images/pianoman-bg.jpg) no-repeat center center;
+}
+
+body, body a {
+	color: #fff;
+}
+
+#headline {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 280px;
+	/*background: #f00;*/
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+#headline h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+	text-align: center;
+	font-size: 63px;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 100;
+}
+
+#headline a {
+	position: relative;
+	top: 28px;
+	border: 1px solid;
+	padding: 12px 18px;
+	/*padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 18px;
+	padding-right: 18px;*/
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	text-decoration: none;
+	transition: all 0.8s cubic-bezier(0.76, 0.02, 0.06, 0.99);
+}
+
+#headline a:hover {
+	background: #fff;
+	color: #28201e;
+	transform: scale(1.2);
+}
