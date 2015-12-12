@@ -1,0 +1,28 @@
+.container {
+	overflow: hidden;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	/*background-image: url("../images/columns-8-960.png");*/
+	background-image: linear-gradient(90deg, rgba(31, 75, 165, 0.45) 50%, transparent 50%);
+	background-size: 240px 240px;
+}
+
+.grid {
+	float: left;
+	height: 60px;
+	margin-bottom: 10px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+}
+.grid-1 { width: 120px; }
+.grid-2 { width: 240px; }
+.grid-3 { width: 360px; }
+.grid-4 { width: 480px; }
+.grid-5 { width: 600px; }
+.grid-6 { width: 720px; }
+.grid-7 { width: 840px; }
+.grid-8 { width: 960px; }
