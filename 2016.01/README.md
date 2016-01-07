@@ -3,7 +3,7 @@ Bloter Academy Course `2015.12.04`
 
 ### DAY01
 
-![Web-Designer-developer](https://ygwebdesign-yarivgurfinkelwe.netdna-ssl.com/wp-content/uploads/2015/09/Web-design-and-development-process-Yariv-Gurfinkel-%C2%A6-Web-Designer-developer.jpg)
+![Web-Designer-developer](../Assets/Web-design-and-development-process-Yariv-Gurfinkel-%C2%A6-Web-Designer-developer.jpg)
 
 ##### 오늘날 웹/앱 디자인 프로세스에 요구되는 것들
 
