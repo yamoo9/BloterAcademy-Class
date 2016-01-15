@@ -15,6 +15,10 @@
 	background: #eaeaea;
 }
 
+#page * {
+	box-sizing: border-box;
+}
+
 /* --------------------------------------------------
 Baseline
 -------------------------------------------------- */
@@ -29,29 +33,33 @@ Baseline
 
 #header {
 	height: 80px;
-	background: #fff;
+	background: hsla(0, 0%, 100%, 0.8);
 }
 
 #slider {
 	height: 480px;
-	background: #eeeeee;
+	background: hsla(0, 0%, 93%, 0.4);
 }
 
 #slider .slider-content {
-	background: #6E6E6E;
+	background: hsla(0, 0%, 43%, 0.4);
 	height: 100%;
 }
 
 #slider .slider-indicator {
-	background: #9B9B9B;
+	background: hsla(0, 0%, 61%, 0.4);
 	height: 100%;
 }
 
 #slider .slider-indicator .indicator-item {
 	display: block;
 	height: 120px;
-	background: #AEA28F;
-	border-bottom: 1px solid #fff;
+	background: hsla(37, 16%, 62%, 0.4);
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.6);
+}
+
+#slider .slider-indicator .indicator-item:last-child {
+	border-bottom: 0;
 }
 
 /*#page .col1 {
