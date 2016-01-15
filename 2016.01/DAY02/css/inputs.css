@@ -1,0 +1,14 @@
+/**
+ * --------------------------------
+ * bloter-input Style
+ */
+
+.bloter-input-search {
+	box-sizing: border-box;
+	width:         11.95em;
+	font-size:     16px;
+	padding:       0.88em 1.13em 0.88em 2.6em;
+	border:        2px solid #c6ccd2;
+	border-radius: 40px;
+	background: #fff url(../images/icon-search.png) no-repeat 18px 14px;
+}

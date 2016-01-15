@@ -2,6 +2,11 @@
 @import "reset.css";
 /* 레이아웃: 그리드 시스템 */
 @import "layout.css";
+/* UI 구성요소: 버튼 */
+@import "buttons.css";
+@import "inputs.css";
+/* 웹 폰트 */
+@import url("https://fonts.googleapis.com/css?family=Cabin:600");
 
 #header {
 	height: 100px;
@@ -27,7 +32,7 @@
 }
 
 #main .row div {
-	height: 60px;
+	height: 150px;
 	background: #000;
 	color: #fff;
 	text-align: center;
