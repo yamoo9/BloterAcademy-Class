@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <title>CSS 레이아웃 - Float 마스터</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    .box-conatiner {
+        width: 1000px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* 모든 박스 디자인에 공통적으로 설정되는 스타일 */
+    .box {
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        padding: 2em;
+        /*outline: 10px solid transparent;*/
+        /*transition: all 0.4s ease;*/
+    }
+    .box:hover {
+        /*outline-color: #323222;*/
+        /*transform-style: preserve-3d;
+        transform-origin: 0% 50%;
+        transform: perspective(400px) scale(1.1) rotateY(20deg);*/
+    }
+    .box-red {
+        /*background: #D9515D;*/
+        background: url(http://placeimg.com/300/300/people) no-repeat;
+    }
+    .box-orange {
+        /*background: #CF8D40;*/
+        background: url(http://placeimg.com/300/300/arch) no-repeat;
+    }
+    .box-yellowgreen {
+        /*background: #71D540;*/
+        background: url(http://placeimg.com/300/300/animals) no-repeat;
+    }
+    .box-purple {
+        /*background: #7234D0;*/
+        background: url(http://placeimg.com/300/300/tech) no-repeat;
+        color: #fff;
+    }
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="box-conatiner clearfix">
+        <div class="box box-red"><!-- box red --></div>
+        <div class="box box-orange"><!-- box orange --></div>
+        <div class="box box-yellowgreen"><!-- box yellowgreen --></div>
+        <div class="box box-purple"><!-- box purple --></div>
+    </div>
+
+    <p>야무 한글 로렘입숨 로렘입숨이란? 디자인을 위한 더미 텍스트!. 않고 흐르는 청춘 숨 죽여도 설레게 쿵쿵대는 거추장스런 햇볕처럼 해도 청춘아! 빛나는, 장엄한 가슴을 내일의 고동소리, 운동화도! 내일의, 꽃처럼 설레게 운동화도, 아름답다 쉬지 해도. 젊음의 거추장스런 꽃보다 하루를 가슴을 장엄한 고동소리, 어디에나, 너 아름다운 심장 쿵쿵대는 흐르는 엮어가는, 해도 햇볕처럼 씩씩하게! 장엄한 눈부신 그대 쿵쿵대는 햇볕처럼 아름답다 보기만 너야말로 해도 하고 티셔츠 심장, 세상을 엮어가는 어디에나 젊음의 쉬지 내일의 고동소리 하루를 빛나는 거추장스런, 땀 꽃보다. 가슴을 세상을 숨 죽여도 너, 씩씩하게 실수조차도 보기만 고동소리 거추장스런 티셔츠 하루를 운동화도 찬란한 설레는, 설레게 너야말로 장엄한 숨소리가 쉬지 피어나는 소리 심장 엮어가는 아름다운 흐르는 빛나는 하고 청춘아!! 숨소리가 젊음의 하루를 심장, 실수조차도 꽃처럼. 소리 사명으로 청춘아! 않고 운동화도 실수조차도 찬란한 심장 설레는 청춘의 피어나는. 흐르는 눈부신 실수조차도 아름답다 청춘아! 가슴을. 가슴을 소리 설레는 않고 심장 내일의 거추장스런 아름다운 너 너야말로 엮어가는 젊음의 다 들리는 운동화도 설레게 그대, 청춘의 쿵쿵대는, 티셔츠. 세상을 장엄한 사명으로 해도 청춘의 엮어가는 햇볕처럼 티셔츠 내일의 젊음의 씩씩하게, 가슴을. 숨 죽여도 쉬지 젊음의 어디에나 장엄한 보기만 너야말로 실수조차도 피어나는, 소리 눈부신 고동소리 꽃보다 않고 빛나는, 햇볕처럼 청춘의 흐르는, 하고 너, 청춘아!! 가슴을 고동소리 꽃보다 실수조차도 내일의 햇볕처럼, 해도 씩씩하게 소리 숨 죽여도 청춘의 심장 너야말로 그대 하루를 어디에나 하고 눈부신 숨소리가 흐르는! 설레는 다 들리는, 않고 사명으로 고동소리 해도 빛나는. 꽃보다, 청춘!</p>
+
+</body>
+</html>

@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Oregano:400,400italic" rel="stylesheet">
     <style>
         @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             width: 800px;
             margin: 0 auto;
@@ -15,7 +20,7 @@
         }
 
         div {
-            background: #ff0;
+            /*background: #ff0;*/
             width: 10em;
         }
 
@@ -28,15 +33,42 @@
 
         .oregano {
             font-family: 'Oregano', cursive;
+            /*
+                width: 300px;
+                padding: 10px;
+                border: 10px solid;
+                margin: 10px;
+                box-sizing: border-box;
+             */
         }
 
         .fa-apple {
             color: #3ec758;
         }
+
+        .imageset {
+            width: 400px;
+        }
+
+        img[src$='.svg'] {
+            width: 100%;
+            height: auto;
+        }
     </style>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
+
+    <!-- SVG 그래픽 포멧 -->
+    <div class="imageset">
+        <img src="images/icon-panda.svg" alt="판다">
+        <img src="images/icon-starbucks.svg" alt="스타벅스">
+    </div>
+
+    <div class="icon-pie-chart"></div>
+    <div class="icon-starbucks"></div>
+    <div class="icon-price-tag"></div>
+    <div class="icon-price-tags"></div>
 
     <!-- 블록 요소 Block Element VS 인라인 요소 Inline Element -->
 
