@@ -10,8 +10,11 @@ Bloter Academy Course `2015.12.04`
 더구나 웹 디자인은 혼자만의 결과물이 아닌, 프론트-엔드(Front-End) 개발자와의 협업이 요구되기에 더더욱 HTML 구조에 대한 이해와 CSS 표현 기술에 대해 알아두어야 합니다. 주어진 환경에 대한 이해/분석이야 말로 굿 디자이너(GOOD + Designer)가 되는 시작이니까요.
 
 현업에서 일하는 디자이너의 경우 개발자들과의 커뮤니케이션에 어려움을 이야기하는 경우가 많습니다.
-“내가 디자인한 페이지는 내가 직접 만들어보고 원활한 커뮤니케이션이 가능하도록 하자.” 라는 생각으로 시작하였습니다. 웹 디자이너 여러분들의 능력을 향상시키고
-웹을 통한 더 나은 디자인을 위한 인사이트를 제공할 것입니다.
+“내가 디자인한 페이지는 내가 직접 만들어보고 원활한 커뮤니케이션이 가능하도록 하자.” 라는 생각으로 시작하였습니다. 웹 디자이너 여러분들의 능력을 향상시키고 웹을 통한 더 나은 디자인을 위한 인사이트를 제공할 것입니다.
+
+![designer-coding-course-01](Assets/designer-coding-course-01.png)
+![designer-coding-course-02](Assets/designer-coding-course-02.png)
+![designer-coding-course-03](Assets/designer-coding-course-03.png)
 
 ![포토샵 뷰 1](http://www.bloteracademy.net/wp-content/uploads/2015/09/01.jpg)
 ![포토샵 뷰 2](http://www.bloteracademy.net/wp-content/uploads/2015/09/07.jpg)
