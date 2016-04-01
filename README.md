@@ -1,4 +1,4 @@
-Bloter Academy Course `2015.12.04`
+Bloter Academy Course
 ## [디자이너를 위한 디자인+코딩](http://www.bloteracademy.net/course/6681)
 
 ### WHY
