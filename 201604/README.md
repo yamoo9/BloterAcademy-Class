@@ -22,3 +22,5 @@ Oliver Reichenstein
 
 - [type.method.ac](http://type.method.ac/ "온라인 커닝 트레이닝 게임")
 - [spoqa-han-sans](http://www.spoqa-han-sans.com/ "스푸가 한 산스 서체")
+- [type-scale](http://type-scale.com/ "모듈러 타이포그래픽 시스템 디자인 도구")
+- [modularscale.com](http://www.modularscale.com/ "모듈러 타이포그래픽 시스템 디자인 도구")
