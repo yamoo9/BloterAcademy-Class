@@ -1,11 +1,48 @@
+/*웹폰트 호출*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+
+/*모듈(재사용 가능한 조립 단위)*/
+.static {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.static-1100 {width: 1100px;}
+.static-1000 {width: 1000px;}
+.static-900 {width: 900px;}
+
+.liquid {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
 /* 요소 선택자 */
-body {
-  
-	/* 속성: 값;*/
+body {  
 	
-	/* 배경 색상 설정 */
+	/* 가로 폭 width */
+/*	width: 1100px;*/
+	
+	/* 외부 공간(margin) 초기화 */
+/*
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+*/
+	
+  /* margin: top right bottom left;	*/
+/*
+	margin: 0 0 0 0;
+	margin: 0 0 0;
+	margin: 0 0;
+*/
+	margin: 0 20%;
+	
+	/* 속성: 값;*/
 	/* 
+	
+	CSS 컬러
 	
 	HEX CODE = 16진수 
 	2진수 0, 1
@@ -19,8 +56,86 @@ body {
 	#1209ab
 	
 	*/
-	background-color: #fbc80f;
-  /* 배경 이미지 삽입 */
+
+	/*
+	주석? 사용자가 볼 수 없는 코멘트를 말한다.
+	작업자 간에 커뮤니케이션을 위한 용도로 글을 남기는 것을 말함.
+	*/
+
+	/* 배경 색상 설정 */
+	background-color: #fff; 
+  
+	/* 배경 이미지 삽입 */
 	background-image: url("../guide/leading-24.png");
 	
+	/* 글자 크기 */
+	font-size: 16px; 
+	
+	/* 행간 line height*/
+	line-height: 1.5; /* 16 x 1.5 = 24px */
+	/* 글자의 종류 */
+	font-family: 'Noto Sans', sans-serif;
+	/* 글자의 색상 */
+	color: #161113;
+	/* 글자 사이 간격	*/
+	letter-spacing: -0.02em;
+}
+
+html {
+	font-size: 16px;
+}
+
+/* 제목: Heading 1-6 */
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+	font-weight: 100;
+	background-color: rgba(255, 255, 0, 0.35);
+}
+
+h1 {
+	font-size: 2.441rem;
+	
+/*
+	행간을 구하는 공식
+	ceil(2.441/1.5) * (1.5/2.441)
+	
+	리딩(leading) 칸 개수 × (본문 행간의 배율 ÷ 글자 크기의 비율(상대값))
+*/
+	
+	line-height: 1.83;
+}
+
+h2 {
+	font-size: 1.953rem;
+	line-height: 1.54;
+}
+
+h3 {
+	font-size: 1.563rem;
+	line-height: 1.92;
+}
+
+h4 {
+	font-size: 1.25rem; /* type scale: x1.25 */
+	line-height: 2.4;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 1rem; /* root em : html 요소의 글자 크기에 상대적인 값 */
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 500;
+}
+
+/* 단락: Paragraph */
+p {
+	/* Noto Sans 글자 체 */
+	margin-top: 0;
+	margin-bottom: 1.5em; /* 16px * 1.5 = 24px */
 }
