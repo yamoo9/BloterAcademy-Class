@@ -17,12 +17,23 @@
 	margin-right: 10%;
 }
 
+
+.circle-mask {
+	border-radius: 50%;
+	margin-bottom: 1.5rem;
+	vertical-align: bottom;
+}
+
+html {
+	font-size: 16px;
+}
+
 /* 요소 선택자 */
-body {  
-	
+body {
+
 	/* 가로 폭 width */
 /*	width: 1100px;*/
-	
+
 	/* 외부 공간(margin) 초기화 */
 /*
 	margin-top: 0;
@@ -30,31 +41,31 @@ body {
 	margin-bottom: 0;
 	margin-left: 0;
 */
-	
+
   /* margin: top right bottom left;	*/
 /*
 	margin: 0 0 0 0;
 	margin: 0 0 0;
 	margin: 0 0;
 */
-	margin: 0 20%;
-	
+	margin: 1.5rem 25%;
+
 	/* 속성: 값;*/
-	/* 
-	
+	/*
+
 	CSS 컬러
-	
-	HEX CODE = 16진수 
+
+	HEX CODE = 16진수
 	2진수 0, 1
 	8진수 0, 1, 2, 3, 4, 5, 6, 7
 	10진수 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 	16진수 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
-	
+
 	#RRGGBB => 16*16*16*16*16*16 = 16777216
 	#RGB => 16*16*16 = 4096
-	
+
 	#1209ab
-	
+
 	*/
 
 	/*
@@ -63,14 +74,11 @@ body {
 	*/
 
 	/* 배경 색상 설정 */
-	background-color: #fff; 
-  
-	/* 배경 이미지 삽입 */
-	background-image: url("../guide/leading-24.png");
-	
+	background-color: #fff;
+
 	/* 글자 크기 */
-	font-size: 16px; 
-	
+	font-size: 16px;
+
 	/* 행간 line height*/
 	line-height: 1.5; /* 16 x 1.5 = 24px */
 	/* 글자의 종류 */
@@ -81,8 +89,18 @@ body {
 	letter-spacing: -0.02em;
 }
 
-html {
-	font-size: 16px;
+body:hover {
+	/* 배경 이미지 삽입 */
+	background-image: url("../guide/leading-24.png");
+}
+
+body:hover h1,
+body:hover h2,
+body:hover h3,
+body:hover h4,
+body:hover h5,
+body:hover h6 {
+	background-color: rgba(255, 255, 0, 0.4);
 }
 
 /* 제목: Heading 1-6 */
@@ -90,19 +108,18 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	margin-bottom: 1.5rem;
 	font-weight: 100;
-	background-color: rgba(255, 255, 0, 0.35);
 }
 
 h1 {
 	font-size: 2.441rem;
-	
+
 /*
 	행간을 구하는 공식
 	ceil(2.441/1.5) * (1.5/2.441)
-	
+
 	리딩(leading) 칸 개수 × (본문 행간의 배율 ÷ 글자 크기의 비율(상대값))
 */
-	
+
 	line-height: 1.83;
 }
 
