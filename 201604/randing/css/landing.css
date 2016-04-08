@@ -34,3 +34,7 @@ body {
 .col-1 {
     padding-top: 100px;
 }
+
+.col-1 {
+    text-align: right;
+}

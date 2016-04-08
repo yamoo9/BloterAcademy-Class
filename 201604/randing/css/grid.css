@@ -8,11 +8,11 @@ body {
     width: 1260px;
     margin-left: auto;
     margin-right: auto;
-    /*height: 300vh;*/
+    height: 100vh;
 }
 
 .page::before {
-    opacity: 0;
+    /*opacity: 0;*/
     transition: all .3s ease;
     position: absolute;
     z-index: 10000;
@@ -20,12 +20,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: inherit;
+    height: 0;
     background: url('../images/grid-pattern-bg.png');
 }
 
-.page::before {
-    opacity: 1;
+.page:hover::before {
+    /*opacity: 1;*/
+    height: 100%;
 }
 
 .row {
@@ -33,7 +34,7 @@ body {
 }
 
 .row::after {
-    cotent: '';
+    content: '';
     display: block;
     clear: both;
 }
