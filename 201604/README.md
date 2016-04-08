@@ -24,3 +24,11 @@ Oliver Reichenstein
 - [spoqa-han-sans](http://www.spoqa-han-sans.com/ "스푸가 한 산스 서체")
 - [type-scale](http://type-scale.com/ "모듈러 타이포그래픽 시스템 디자인 도구")
 - [modularscale.com](http://www.modularscale.com/ "모듈러 타이포그래픽 시스템 디자인 도구")
+
+---
+
+# DAY02
+
+- [[브랜드 스토리] 센드버드 로고는 이렇게 디자인 되었다](goo.gl/yRWmUq)
+- [Guide Guide PS Plugin](http://guideguide.me/)
+
