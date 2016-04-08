@@ -1,0 +1,12 @@
+<svg id="icon-arrow" xmlns="http://www.w3.org/2000/svg" width="57" height="40.5" viewBox="0 0 57 40.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffefe;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon-arrow-2" data-name="icon-arrow" class="cls-1" d="M291,598.211l0.707-.707L320,625.789l-0.707.707Zm56.992,0.5L347.289,598,319,626.289,319.711,627Z" transform="translate(-291 -597.5)"/>
+  <path id="icon-arrow-3" data-name="icon-arrow" class="cls-1" d="M291,609.211l0.707-.707L320,636.789l-0.707.707Zm56.992,0.5L347.289,609,319,637.289,319.711,638Z" transform="translate(-291 -597.5)"/>
+</svg>

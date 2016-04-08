@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: url("../images/page-bg.jpg") no-repeat center top;
+    /*background-size: cover;*/
+}
+
+.col-3 {
+    padding-top: 280px;
+}
+
+.col-3 img {
+    display: block;
+}
+
+.col-3 .coffee {
+    position: relative;
+    left: -18px;
+    top: 3px;
+}
+
+.col-3 .arrow {
+    position: relative;
+      left: 80px;
+      top: 18px;
+}
+
+.col-3 .icon-coffee {
+    position: relative;
+    top: 38px;
+    left: 62px;
+}
+
+.col-1 {
+    padding-top: 100px;
+}
